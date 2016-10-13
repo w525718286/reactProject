@@ -1,0 +1,46 @@
+{
+  "name": "beatifull",
+  "version": "1.0.0",
+  "description": "try webpack,es6 and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress --profile --colors --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w525718286/reactProject.git"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "react",
+    "redux"
+  ],
+  "author": "wuyao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w525718286/reactProject/issues"
+  },
+  "homepage": "https://github.com/w525718286/reactProject#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.22.0",
+    "install": "^0.8.1",
+    "jquery": "^3.1.1",
+    "path": "^0.12.7",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
