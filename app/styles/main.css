@@ -1,14 +1,152 @@
 *{
 	padding: 0;
 	margin:0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style-type: none;
 }
 html,body{
 	height:100%;
 	width:100%;
-	background:-webkit-linear-gradient(left,white,yellow);
+	/*background:-webkit-linear-gradient(left,white,yellow);*/
 }
 
+
 nav{
-    height:50px;
-    background: -webkit-gradient(left,wheat,#ffc520);
+    position: absolute;
+    background: #404040;
+    border-right:1px solid #404040;
+    height:100%;
 }
+.Logo{
+    display: block;
+    width:50px;
+    margin: 20px auto;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.Logo:hover{
+    transform: rotate(360deg);
+}
+/*nav .navTitle ul{*/
+    /*width:185px;*/
+/*}*/
+
+nav ul a{
+    display: inline-block;
+    width:185px;
+}
+
+/*nav ul li{*/
+    /*color: #FFF;*/
+    /*font-weight: bold;*/
+/*}*/
+.navTitle a{
+    display: block;
+    height:42px;
+    line-height: 42px;
+    padding:0 16px 0 18px;
+    text-decoration: none;
+}
+.navTitle{
+    width:185px;
+    color: #999;
+    font-weight: bold;
+    height:42px;
+    line-height: 42px;
+    padding:0 16px 0 18px;
+}
+.itemContent li a{
+    line-height: 42px;
+    color: #999;
+    padding:0 16px 0 48px;
+    text-decoration: none;
+}
+
+
+.frontIm{
+    width:20px;
+    vertical-align: sub;
+    margin-right:10px;
+}
+.backIm{
+    width:20px;
+    vertical-align: sub;
+    float:right;
+    margin-top: 14px;;
+}
+
+nav li:hover a{
+    color: #ffffff;;
+}
+
+nav li a:active{
+    color: #ffffff;
+}
+.selectItem{
+    background: #2db7f5;
+    color: #ffffff !important;
+}
+
+
+
+#rightWrap{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+    position: absolute;
+    top: 0;
+    left: 185px;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.std{
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+    height:57px;
+
+    border-bottom:1px solid gainsboro;
+    margin-bottom: 15px;
+
+}
+.std span{
+
+    display: inline-block;
+    float: right;
+    padding: 10px;;
+}
+.std span:hover{
+    cursor: pointer;
+    border-bottom: 5px solid #412b8a;
+}
+
+table{
+    display: inline-block;
+    border: 1px solid #e9e9e9;
+    border-collapse:collapse;
+    zoom: 1;
+}
+table th{
+    background: #a6cab7;
+    border: 1px solid #e9e9e9;
+    padding:15px 8px;
+    word-break: keep-all;
+    white-space:nowrap;
+}
+
+table td{
+    border: 1px solid #e9e9e9;
+    padding: 10px 5px;
+    text-align: center;
+    word-break: keep-all;
+    white-space:nowrap;
+}
+
+
