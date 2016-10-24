@@ -27,9 +27,9 @@ export default class Nav extends Component{
 	      <img className="Logo" src= {Logo} alt="logo"/>
 	      <li className= "navTitle"><img className="frontIm" src={Mail} alt=""/>导航一 <img src={Rotate} className="backIm" alt=""/></li>
 	      <ul className="itemContent">
-		      <li><Link to="/table" activeStyle ={ACTIVE}  >首页</Link></li>
+		      <li><Link to="/table" activeStyle ={ACTIVE}  >表格</Link></li>
 		      <li><Link to="/form" activeStyle ={ACTIVE} >表单</Link></li>
-		      <li><Link to="/date" activeStyle ={ACTIVE} >日历</Link></li>
+		      <li><Link to="/carousel" activeStyle ={ACTIVE} >轮播</Link></li>
 		      <li><Link to="/chart" activeStyle ={ACTIVE}>图表</Link></li>
 	      </ul>
 	      <li className="navTitle"><img  className="frontIm" src={List} alt=""/>导航二<img className="backIm"  src={Rotate} alt=""/></li>

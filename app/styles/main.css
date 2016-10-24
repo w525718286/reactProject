@@ -109,8 +109,8 @@ nav li a:active{
 
 .std{
     box-sizing: border-box;
-    padding: 20px 20px 0 20px;
-    height:57px;
+    padding: 20px 0px 0 20px;
+    /*line-height:30px;*/
 
     border-bottom:1px solid gainsboro;
     margin-bottom: 15px;
@@ -120,12 +120,21 @@ nav li a:active{
 
     display: inline-block;
     float: right;
+    height: 40px;;
     padding: 10px;;
 }
 .std span:hover{
     cursor: pointer;
-    border-bottom: 5px solid #412b8a;
+    background: lightblue;
+    border-bottom: 2px solid #412b8a;
 }
+.std:after{
+    content:'';
+    height:0;
+    display: block;
+    clear: both;
+}
+
 
 table{
     display: inline-block;
@@ -148,5 +157,11 @@ table td{
     word-break: keep-all;
     white-space:nowrap;
 }
+
+#chart{
+    height: 400px;;
+    width:100%;
+}
+
 
 

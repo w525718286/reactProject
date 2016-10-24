@@ -45,7 +45,7 @@ module.exports = {
 			$     : 'jquery',
 			jQuery:'jquery'
 		})
-	]
+	],
 	resove:{
 		extentions:['.js','.json','.html','.css']
 	}

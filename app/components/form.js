@@ -13,7 +13,12 @@ export default class myForm extends Component{
 		var item = {width:'20%'};
 		return(
 				<form action="">
-				dfdfdf	<input type="text"/>
+			    <div><label htmlFor="">姓名</label><input type="text" placeholder="请输入中文名字"/></div>
+			    <div><label htmlFor="">姓名</label><input type="text" placeholder="请输入中文名字"/></div>
+			    <div><label htmlFor="">姓名</label><input type="text" placeholder="请输入中文名字"/></div>
+			    <div><label htmlFor="">姓名</label><input type="text" placeholder="请输入中文名字"/></div>
+			    <div><label htmlFor="">姓名</label><input type="text" placeholder="请输入中文名字"/></div>
+			    <div><label htmlFor="">姓名</label><input type="text" placeholder="请输入中文名字"/></div>
 				</form>
 
 		)
